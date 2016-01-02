@@ -1,0 +1,7 @@
+edu/stevens/cs548/clinic/service/web/rest/resources/PatientResource$PatientRecordNotFound.class
+edu/stevens/cs548/clinic/service/web/rest/resources/PatientResource$PatientRecordNotCreated.class
+edu/stevens/cs548/clinic/service/web/rest/resources/PatientResource.class
+edu/stevens/cs548/clinic/service/web/rest/resources/ProviderResource.class
+edu/stevens/cs548/clinic/service/web/rest/resources/ProviderResource$ProviderRecordNotCreated.class
+edu/stevens/cs548/clinic/service/web/rest/resources/WSConfiguration.class
+edu/stevens/cs548/clinic/service/web/rest/resources/ProviderResource$ProviderRecordNotFound.class

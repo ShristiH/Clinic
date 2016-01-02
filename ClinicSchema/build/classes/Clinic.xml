@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:Clinic xmlns:tns="http://www.example.org/schemas/clinic" xmlns:tns1="http://www.example.org/schemas/clinic/patient" xmlns:tns2="http://www.example.org/schemas/clinic/clinic_ids" xmlns:tns3="http://www.example.org/schemas/clinic/treatment" xmlns:tns4="http://www.example.org/schemas/clinic/provider" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/schemas/clinic Clinic.xsd ">
+  <tns1:Patient>
+    <tns1:patient-id>1001</tns1:patient-id>
+    <tns1:name>Shristi Hingle</tns1:name>
+    <tns1:dob>1991-01-07</tns1:dob>
+    <tns1:treatments>
+    	<tns1:treatment>
+    		<tns3:provider-id>101</tns3:provider-id>
+    		<tns3:diagnosis>Flu</tns3:diagnosis>
+    		<tns3:drug-treatment>
+    			<tns3:name>Crocin</tns3:name>
+    			<tns3:dosage>1.0</tns3:dosage>
+    		</tns3:drug-treatment>
+    	</tns1:treatment>
+    	<tns1:treatment>
+    		<tns3:provider-id>102</tns3:provider-id>
+    		<tns3:diagnosis>Cancer</tns3:diagnosis>
+    		<tns3:radiology>
+    			<tns3:date>2001-01-01</tns3:date>
+    		</tns3:radiology>
+    		
+    	</tns1:treatment></tns1:treatments>
+  </tns1:Patient>
+  <tns1:Patient>
+  	<tns1:patient-id>1002</tns1:patient-id>
+  	<tns1:name>John Hopkins</tns1:name>
+  	<tns1:dob>2001-01-01</tns1:dob>
+  	<tns1:treatments>
+  		<tns1:treatment>
+  			<tns3:provider-id>102</tns3:provider-id>
+  			<tns3:diagnosis>Fracture</tns3:diagnosis>
+  			<tns3:surgery>
+  				<tns3:date>2007-01-01</tns3:date>
+  			</tns3:surgery>
+  			
+  			
+  		</tns1:treatment>
+  	</tns1:treatments>
+  </tns1:Patient>
+  <tns4:Provider>
+    <tns4:provider-id>101</tns4:provider-id>
+    <tns4:name>General Hospital</tns4:name>
+    <tns4:specialization>Anesthesiologist</tns4:specialization>
+  </tns4:Provider>
+  <tns4:Provider>
+  	<tns4:provider-id>102</tns4:provider-id>
+  	<tns4:name>Hoboken Hospital</tns4:name>
+  	<tns4:specialization>Radiology</tns4:specialization>
+  </tns4:Provider>
+</tns:Clinic>

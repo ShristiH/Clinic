@@ -1,0 +1,17 @@
+edu/stevens/cs548/clinic/service/representations/PatientRepresentation.class
+edu/stevens/cs548/clinic/service/web/rest/data/package-info.class
+edu/stevens/cs548/clinic/service/web/rest/data/RadiologyType.class
+edu/stevens/cs548/clinic/service/web/rest/data/ObjectFactory.class
+edu/stevens/cs548/clinic/service/web/rest/data/PatientType.class
+edu/stevens/cs548/clinic/service/web/rest/data/dap/ObjectFactory.class
+edu/stevens/cs548/clinic/service/web/rest/data/DrugTreatmentType.class
+edu/stevens/cs548/clinic/service/representations/DateAdapter.class
+edu/stevens/cs548/clinic/service/representations/TreatmentRepresentation.class
+edu/stevens/cs548/clinic/service/web/rest/data/dap/package-info.class
+edu/stevens/cs548/clinic/service/representations/Representation.class
+edu/stevens/cs548/clinic/service/web/rest/data/Adapter1.class
+edu/stevens/cs548/clinic/service/web/rest/data/dap/LinkType.class
+edu/stevens/cs548/clinic/service/web/rest/data/TreatmentType.class
+edu/stevens/cs548/clinic/service/web/rest/data/SurgeryType.class
+edu/stevens/cs548/clinic/service/representations/ProviderRepresentation.class
+edu/stevens/cs548/clinic/service/web/rest/data/ProviderType.class
